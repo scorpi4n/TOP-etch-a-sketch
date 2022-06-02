@@ -2,12 +2,10 @@
 const gridContainer = document.querySelector('.container')
 
 gridContainer.style.display = 'grid'
-    // set how many columns in the grid
+gridContainer.style.gridTemplateColumns = 'repeat(16, 1fr)'
 
-for (let i = 0; i < 16; i++) {
+for (let i = 0; i < 16**2; i++) {
     const cell = document.createElement('div')
     cell.classList.add('cell')
-    cell.innerText = i
-
     gridContainer.appendChild(cell)
 }
