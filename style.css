@@ -1,13 +1,30 @@
 :root {
     /* colors */
-    --grey: rgb(150, 150, 150)
+    --clr-muted-green: rgb(150, 170, 150)
 }
 
 body {
     margin: 0;
     padding: 0;
+    background-color: var(--clr-muted-green);
 }
 
-/* .cell {
-    height: 100px;
-} */
+.title {
+    text-align: center;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sketchboard {
+    aspect-ratio: 1/1;
+    width: 500px;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+}

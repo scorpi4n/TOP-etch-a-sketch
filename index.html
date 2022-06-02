@@ -3,9 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>Etch-A-Sketch</title>
+    <link rel="stylesheet" href="./style.css">
     <script src="./main.js" defer></script>
 </head>
 <body>
-    <div class="container"></div>
+    <h1 class="title">Etch-A-Sketch</h1>
+
+    <div id="main-content">
+        <div class="sketchboard"></div>
+
+        <div id="options" class="container">
+            <div id="buttons" class="container">
+                <button></button>
+                <button></button>
+                <button></button>
+                <button>Reset</button>
+            </div>
+            <div>
+                <label>How detailed do you want the Etch-A-Sketch?</label>
+                <input type="number" name="sketchboardResolution" placeholder="Enter a number 2-100">
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
