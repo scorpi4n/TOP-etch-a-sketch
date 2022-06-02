@@ -1,0 +1,13 @@
+:root {
+    /* colors */
+    --grey: rgb(150, 150, 150)
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* .cell {
+    height: 100px;
+} */
