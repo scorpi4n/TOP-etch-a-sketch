@@ -1,12 +1,14 @@
 :root {
     /* colors */
-    --clr-muted-green: rgb(150, 170, 150)
+    --clr-muted-green: rgb(150, 170, 150);
+    --clr-medium-grey: rgb(120, 120, 120);
 }
 
 body {
     margin: 0;
     padding: 0;
     background-color: var(--clr-muted-green);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .title {
@@ -22,6 +24,8 @@ body {
 .sketchboard {
     aspect-ratio: 1/1;
     width: 500px;
+    padding: 50px;
+    background-color: var(--clr-medium-grey);
 }
 
 #buttons {
