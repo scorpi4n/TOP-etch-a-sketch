@@ -14,14 +14,18 @@
 
         <div id="options" class="container">
             <div id="buttons" class="container">
-                <button>Black</button>
-                <button>Color</button>
-                <button>Eraser</button>
-                <button>Reset</button>
+                <span>
+                    Color: 
+                    <input type="color" name="colorPicker" id="colorPicker">                    
+                </span>
+
+                <button id="eraserBtn">Eraser</button>
+                <button id="resetBtn">Reset</button>
             </div>
             <div>
                 <label>How detailed do you want the Etch-A-Sketch?</label>
                 <input id="sizeInput" type="number" name="sketchboardResolution" placeholder="Enter a number 2-100">
+                <button id="submitBtn">Submit</button>
             </div>
         </div>
     </div>
